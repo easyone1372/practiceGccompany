@@ -1,0 +1,132 @@
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.seven {
+  width: 100vw;
+  height: 70vh;
+}
+
+.seven__contents {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  background-color: white;
+  font-family: "Pretendard-Regular";
+
+  color: black;
+
+  border-top: 1px solid black;
+}
+
+.seven__contact {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  gap: 50px;
+  /* justify-content: space-between; */
+}
+
+.seven__contact__box {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.seven__subtitle {
+  font-size: 15px;
+  color: rgb(42, 42, 42);
+  font-weight: 600;
+}
+
+.seven__number {
+  font-size: 30px;
+  font-weight: 800;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.seven__contact__way {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.location__way {
+  width: 400px;
+  padding: 10px 30px;
+  border: 1px solid rgb(211, 211, 211);
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 30px;
+}
+
+.seven__Follow__us {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.seven__follow {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(100, 100, 100);
+  justify-content: flex-start;
+  gap: 25px;
+  margin-top: 33px;
+}
+
+.seven__contents__brand {
+  display: flex;
+  gap: 20px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.seven__company {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 12px;
+  color: rgb(100, 100, 100);
+}
+
+.seven__follow__sns {
+  display: flex;
+  gap: 10px;
+}
+.sns__naver {
+  width: 25px;
+  height: 25px;
+}
+
+.sns__naver > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.seven__userinfoRule {
+  font-size: 12px;
+  font-weight: 700;
+  color: rgb(100, 100, 100);
+  border-bottom: 1px solid rgb(100, 100, 100);
+  width: fit-content;
+}
+
+.seven__copyright {
+  font-size: 12px;
+}

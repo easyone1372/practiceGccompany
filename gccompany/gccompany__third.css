@@ -1,0 +1,127 @@
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.third {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.third__contents {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+
+.third__phone {
+  width: 500px;
+  position: absolute;
+  left: 40%;
+}
+
+.third__phone > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.third__contents > .third__logo {
+  width: 150px;
+  position: absolute;
+  margin-top: 250px;
+  left: 49%;
+}
+
+.third__logo > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.third__contents > .third__phoneMenus {
+  width: fit-content;
+  position: absolute;
+  margin-top: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.third__phone__menuBox {
+  width: 100px;
+  height: 175px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 10px;
+
+  font-family: "Pretendard-Regular";
+  font-size: 20px;
+  font-weight: 400;
+
+  background-color: rgb(221, 221, 221);
+}
+
+.third__menuBox__image {
+  width: 70%;
+  height: 70%;
+}
+.third__menuBox__image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 768px) {
+  .third {
+    margin-top: 100px;
+  }
+  .third__contents {
+    max-width: 350px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .third__phone {
+    width: 320px;
+    left: 10%;
+  }
+
+  .third__contents > .third__logo {
+    margin-top: 150px;
+    width: 125px;
+    left: 140px;
+  }
+
+  .third__contents > .third__phoneMenus {
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 5px;
+    left: 2%;
+    justify-content: space-between;
+  }
+
+  .third__phone__menuBox {
+    width: 80px;
+    height: 153px;
+    gap: 20px;
+    padding: 0;
+
+    font-size: 13px;
+  }
+
+  .third__menuBox__image {
+    width: 50px;
+    height: 50px;
+  }
+}

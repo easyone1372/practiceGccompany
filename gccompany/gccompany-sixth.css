@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sixth {
+  width: 100vw;
+}
+
+.sixth__contents {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.sixth__title {
+  margin-top: 100px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.sixth__boxes {
+  width: 100%;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 3fr);
+  gap: 15px;
+}
+
+.sixth__box {
+  display: flex;
+  flex-direction: column;
+  width: 475px;
+  height: 200px;
+  border-radius: 20px;
+  padding: 40px;
+  gap: 15px;
+}
+
+.sixth__menu {
+  font-size: 30px;
+  font-weight: 700;
+}
+.sixth__email {
+  font-weight: 700;
+}
+.maketing {
+  background-image: url(maketing.webp);
+  background-size: cover;
+}
+
+.htresort {
+  background-image: url(htresort.webp);
+  background-size: cover;
+}
+
+.camping {
+  background-image: url(camping.webp);
+  background-size: cover;
+}
+
+.ticket {
+  background-image: url(ticket.webp);
+  background-size: cover;
+}
+
+.villa {
+  background-image: url(viller.webp);
+  background-size: cover;
+}
+
+.sofa {
+  background-image: url(sofa.webp);
+  background-size: cover;
+}
